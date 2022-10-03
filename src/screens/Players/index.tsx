@@ -61,15 +61,15 @@ export function Players() {
                     )}
                     showsVerticalScrollIndicator={false}
                     contentContainerStyle={[
-                        //indica que no final da lista vai ter um espaçamento maior
+                      
                         {paddingBottom: 100},
-                        //deixar a mensage no meio
+                      
                         players.length === 0 && {flex: 1}
                     ]}
                     
                  />
                  <Button 
-                    title='Remover turmas'
+                    title='Remover turma'
                     type="SECONDARY"
                  />
 
