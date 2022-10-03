@@ -69,7 +69,7 @@ export function Players() {
                     
                  />
                  <Button 
-                    title='Remover turma'
+                    title='Remover turmas'
                     type="SECONDARY"
                  />
 
