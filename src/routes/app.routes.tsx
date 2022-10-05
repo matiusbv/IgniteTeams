@@ -9,11 +9,11 @@ const { Navigator, Screen } = createNativeStackNavigator();
 
 export function AppRoutes(){
     return (
-        <Navigator>
+        <Navigator screenOptions={{ headerShown: false }}>
 
             <Screen 
-                name="groups" //<-nome da rota
-                component={Groups} // <- Componente a ser renderizado
+                name="groups" 
+                component={Groups} 
             />
 
             <Screen 
